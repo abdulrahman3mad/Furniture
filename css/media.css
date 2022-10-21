@@ -1,0 +1,113 @@
+/*-----------------------------Start Home Media------------------------*/
+/*--Start navbar Media--*/
+@media screen and (max-width:768px) {
+    .primary-header{
+        border-bottom: 1px solid lightgray;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .primary-header .navbar .icons-list > *{
+        padding:0
+    }   
+}
+
+
+@media screen and (min-width: 992px) {
+    .menu-parent:hover .menu {
+        display: block !important;
+        visibility: visible;
+        opacity: 1;
+        top: 100%;
+    }
+
+    .menu-parent .menu {display: block !important}
+}
+
+
+@media screen and (max-width:992px) {
+    .menu-parent .menu {
+        position: static !important;
+        visibility: visible;
+        opacity: 1;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        border: 1px solid var(--clr-accent);
+        width: 100%;
+    }
+
+    .primary-header .icons-list {padding: 20px 10px}
+}
+
+/*--End navbar Media--*/
+
+/*--Start Hero Media---*/
+@media screen and (max-width:768px) {
+    .hero-sec .before-line {padding-left: 0}
+
+    .hero-sec .before-line::before{display: none}
+}
+/*--End Hero Media---*/
+
+/*--Start Types View Media--*/
+@media screen and (max-width:1200px){
+    .h-30, .h-70, .h-35{height:240px !important}
+}
+/*--End Types View Media--*/
+
+/*--Start Products Media--*/
+@media screen and (max-width:992px) {
+    .products .product-container  .row > *{
+        border: none !important;
+    }
+}
+/*--End Products Media--*/
+/*-----------------------------End Home Media------------------------*/
+
+@media screen and (max-width:540px) {
+    .bill-sec .coupon-box,
+    .bill-sec .bill-summary {
+        padding: 30px 15px;
+    }   
+}
+
+
+@media screen and (max-width:768px){
+    .form-container .form-style {
+        border-radius: 0;
+    }
+}
+
+
+@media screen and (max-width:550px){
+    .form-container form .eye-icon{
+        left:87%
+    }
+}
+
+@media screen and (max-width:992px) {
+    .blogs .comments .img-container{
+        border:0 !important
+    }
+}
+
+@media screen and (min-width:992px){
+    .contact-info,
+    .contact-form {
+        border-radius: 32px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .account-details .my-profile{
+        border:0 !important;
+    }
+}
+
+@media screen and (min-width:768px){
+    .account-details .content{
+        border-radius: 11px;
+        border: 1px solid lightgray;
+    }
+}
