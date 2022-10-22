@@ -15,3 +15,9 @@ and then makes lots of utility classes for these common styles. I think it is an
 - you almost no more have the dilemma of what to name your classes
 - no more of figuring your way in the huge CSS files.
 - much faster styling by just puting the utility class on the target element 
+
+note: I didn't make all the utility classes from the beginning that's why my CSS file is not that small
+
+
+You can watch the site here
+https://abdulrahman3mad.github.io/Furniture/
